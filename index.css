@@ -14,10 +14,10 @@ h1 {
 }
 
 .main-cont {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-    line-height: 200px;
+    display: flex;
+    justify-content: center;
+  align-items: center;   
+  height: 100vh;        
 }
 
 #disc {
