@@ -26,6 +26,30 @@ h1 {
     color: white;
 }
 
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    animation: slideIn 1s ease-in-out;
+}
+nav ul li a:hover {
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
 @font-face {
     font-family: pixer;
     src: url(fonts/Pixer-Regular.woff);
