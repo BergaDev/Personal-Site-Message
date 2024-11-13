@@ -7,7 +7,7 @@ h1 {
 }
 
 #main {
-    font-family: 'Sixtyfour';
+    font-family: 'dotto';
     text-align: center;
     font-size: 4em;
     color: yellow;
@@ -33,10 +33,15 @@ h1 {
 
 @font-face {
     font-family: Sixtyfour;
-    src: url(fonts/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf);
+    src: url(fonts/Sixtyfour-Regular.ttf);
 }
 
 @font-face {
     font-family: Yellowtail;
     src: url(fonts/Yellowtail-Regular.ttf);
+}
+
+@font-face {
+    font-family: dotto;
+    src: url(fonts/Doto-VariableFont_ROND\,wght.ttf);
 }
