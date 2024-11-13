@@ -1,0 +1,42 @@
+h1 {
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 2em;
+    font-family: 'pixer';
+}
+
+#main {
+    font-family: 'Sixtyfour';
+    text-align: center;
+    font-size: 4em;
+    color: yellow;
+}
+
+.main-cont {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+    line-height: 200px;
+}
+
+#disc {
+    font-family: 'Yellowtail';
+    font-size: 2em;
+    color: white;
+}
+
+@font-face {
+    font-family: pixer;
+    src: url(fonts/Pixer-Regular.woff);
+}
+
+@font-face {
+    font-family: Sixtyfour;
+    src: url(fonts/SixtyfourConvergence-Regular-VariableFont_BLED\,SCAN\,XELA\,YELA.ttf);
+}
+
+@font-face {
+    font-family: Yellowtail;
+    src: url(fonts/Yellowtail-Regular.ttf);
+}
