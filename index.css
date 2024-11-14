@@ -26,28 +26,26 @@ h1 {
     color: white;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-}
-nav ul li {
-    margin: 0 15px;
-}
-nav ul li a {
+ul {
     color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-    display: block;
-    animation: slideIn 1s ease-in-out;
 }
-nav ul li a:hover {
-    background-color: blue;
-    color: white;
-    transition: background-color 0.3s ease-in-out;
+
+.social-header ul {
+    display: flex;           /* Display list items in a row */
+    list-style-type: none;    /* Remove bullet points */
+    padding: 0;               /* Remove padding */
+    margin: 0;                /* Remove margin */
+}
+
+.social-header li {
+    margin-right: 15px;       /* Space between each link */
+    color: white;             /* Optional: Match your site color */
+    font-size: 1.2em;         /* Adjust font size as needed */
+    font-family: 'pixer';     /* Match your font */
+}
+
+.social-header li:last-child {
+    margin-right: 0;          /* Remove margin from the last item */
 }
 
 @font-face {
