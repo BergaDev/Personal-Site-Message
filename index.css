@@ -1,5 +1,5 @@
 h1 {
-    padding: 10px;
+    padding: 2px;
     color: white;
     text-align: left;
     font-size: 2em;
@@ -31,21 +31,28 @@ ul {
 }
 
 .social-header ul {
-    display: flex;           /* Display list items in a row */
-    list-style-type: none;    /* Remove bullet points */
-    padding: 0;               /* Remove padding */
-    margin: 0;                /* Remove margin */
+    display: flex;          
+    list-style-type: none;    
+    padding: 0px;               
+    margin: 2px;                
 }
 
 .social-header li {
-    margin-right: 15px;       /* Space between each link */
-    color: white;             /* Optional: Match your site color */
-    font-size: 1.2em;         /* Adjust font size as needed */
-    font-family: 'pixer';     /* Match your font */
+    margin-right: 15px;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'pixer';
 }
 
-.social-header li:last-child {
-    margin-right: 0;          /* Remove margin from the last item */
+a:link {
+    color: white;
+}
+a:hover {
+    color: yellow;
+}
+a:visited {
+    color: red;
+    text-decoration: none;
 }
 
 @font-face {
